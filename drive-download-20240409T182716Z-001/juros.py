@@ -1,0 +1,7 @@
+vl=float(input("quanto custa a compra? "))
+portx=int(input("quanto de taxa? "))
+tmp=int(input("em quanto tempo? "))
+portxm=(portx/100*vl)
+vlm=(portxm*tmp)
+j=float(vl+vlm)
+print("seu juros é %f" %(j))
